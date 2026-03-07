@@ -27,7 +27,7 @@ const Footer = ({ darkMode }: { darkMode: boolean }) => {
         
         <div className="flex gap-8 text-sm font-medium">
           <a 
-            href="https://github.com/aleezazahra01/Pomodoro.git" 
+            href="https://github.com" 
             className="hover:opacity-50 transition-opacity"
             target="_blank" 
             rel="noreferrer"
@@ -35,7 +35,7 @@ const Footer = ({ darkMode }: { darkMode: boolean }) => {
             Contribute
           </a>
           <a 
-            href="https://github.com/aleezazahra01/Pomodoro.git" 
+            href="https://github.com" 
             className="hover:opacity-50 transition-opacity"
             target="_blank" 
             rel="noreferrer"
@@ -46,7 +46,7 @@ const Footer = ({ darkMode }: { darkMode: boolean }) => {
         </div>
 
         <div className="text-xs opacity-40 italic">
-          &copy; {new Date().getFullYear()} Built for Flow by Aleeza Zahra with 🩷 
+          &copy; {new Date().getFullYear()} Built for Flow with 🩷 
         </div>
       </div>
     </footer>
