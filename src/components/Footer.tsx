@@ -13,6 +13,7 @@ const Footer = ({ darkMode }: { darkMode: boolean }) => {
       }}
     >
       <div className="max-w-7xl mx-auto px-8 flex flex-col md:flex-row justify-between items-center gap-6">
+
         <div className="flex flex-col items-center md:items-start">
           <span 
             style={{ fontFamily: "Gwendolyn, cursive" }} 
@@ -24,13 +25,11 @@ const Footer = ({ darkMode }: { darkMode: boolean }) => {
             Master your time, one session at a time.
           </p>
         </div>
-     
-          
-        </div>
 
         <div className="text-xs opacity-40 italic">
-          &copy; {new Date().getFullYear()} Built for Flow with 🩷 
+          &copy; {new Date().getFullYear()} Built for Flow with 🩷
         </div>
+
       </div>
     </footer>
   );
