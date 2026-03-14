@@ -24,24 +24,7 @@ const Footer = ({ darkMode }: { darkMode: boolean }) => {
             Master your time, one session at a time.
           </p>
         </div>
-        
-        <div className="flex gap-8 text-sm font-medium">
-          <a 
-            href="https://github.com" 
-            className="hover:opacity-50 transition-opacity"
-            target="_blank" 
-            rel="noreferrer"
-          >
-            Contribute
-          </a>
-          <a 
-            href="https://github.com" 
-            className="hover:opacity-50 transition-opacity"
-            target="_blank" 
-            rel="noreferrer"
-          >
-            Source code
-          </a>
+     
           
         </div>
 
