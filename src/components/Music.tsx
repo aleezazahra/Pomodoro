@@ -152,7 +152,7 @@ const Music = ({ mode }: MusicProps) => {
         </select>
 
         <audio 
-  key={trackIndex} // This is the secret sauce!
+  key={trackIndex} 
   ref={audioRef} 
   src={currentTrack.file} 
   onCanPlay={() => {
