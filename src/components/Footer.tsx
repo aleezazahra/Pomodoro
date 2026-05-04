@@ -27,7 +27,7 @@ const Footer = ({ darkMode }: { darkMode: boolean }) => {
         </div>
 
         <div className="text-xs opacity-40 italic">
-          &copy; {new Date().getFullYear()} Built for Flow with 🩷
+          &copy; {new Date().getFullYear()} Made by aleeza with 🩷
         </div>
 
       </div>
